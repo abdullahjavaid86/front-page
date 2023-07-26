@@ -17,15 +17,15 @@ export default function Home() {
         <img src={"/bg.png"} width={420} height={618} alt="bg" />
         <div>
           <p
-            className={`w-[600px] text-6xl font-extrabold lg:relative right-[16rem] bottom-8 ${GoldmanFont.className}`}
+            className={`w-[634px] text-6xl font-extrabold lg:relative right-[16rem] bottom-8 ${GoldmanFont.className}`}
           >
             Turn Your Website Into Your Best Sales Person
           </p>
-          <div className="lg:pl-32">
+          <div className="lg:pl-26">
             <p className={`max-w-screen-sm text-2xl ${RubikFont.className}`}>
-              Triple your sales with a pixel-perfect website. At SmartSite
-              Studio, we don’t just design and write code, we build a
-              revenue-driving machine for your business.
+              Triple your sales with a pixel-perfect website. <br />
+              At SmartSite Studio, we don’t just design and write code, we build
+              a revenue-driving machine for your business.
             </p>
             <div className="mt-7">
               <button
